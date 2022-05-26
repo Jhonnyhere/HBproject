@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <h3>What javascript can do</h3>
+<ul>
+    <li>It can change html content <li>
+<h2 id="demo"> Html content</h2>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello Js"'>click</button>
+
+    <li>It can change css </li>
+<h2 id="demo2"> normal line </h2>
+<button type="button" onclick='document.getElementById("demo2").style.fontSize="25px"'>click to see css</button>    
+
+    <li>It can hide html content </li>
+<h2 id="demo3">something is written</h2>
+<button type="button" onclick='document.getElementById("demo3").style.display="none"'>click to see css</button>  
+
+    <li> Javascript function </li>    
+<script>
+     function myfunction() {
+         document.getElementById('demo4').innerHTML = "para changes successfully";
+     }     
+</script>     
+<h2 id="demo4">this is happening due to js function </h2>
+<button type="button" onclick="myfunction()">Take a try </button> 
+
+     <li> by this we can also print current page </li>
+<button type="button" onclick="window.print()">print this page </button>   
+   
+</body>
+</html>        

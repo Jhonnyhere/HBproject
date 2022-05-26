@@ -1,0 +1,25 @@
+ul{
+    list-style: none;
+    background-color: rgba(41, 3, 3, 0.89);
+    justify-content: space-around;
+    display:flex;
+    height:30px;
+}
+li{
+    display:block;
+    align-items: center;
+}
+.amazing{
+    display:block;
+    color: azure;
+}
+.amazing:hover{
+    background-color: aqua;
+}
+body{
+    overflow: hidden;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
